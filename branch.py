@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title('Streamlit - Search ranges')
 
-data_url = ('dataset.csv')
+data_url = ('https://firebasestorage.googleapis.com/v0/b/streamlit-2832e.appspot.com/o/csv%2Fdataset.csv?alt=media&token=96b49571-fa0e-41af-97c4-7b643257810e')
 
 def load_data_byranges(startid, endid):
     data = pd.read_csv(data_url)
